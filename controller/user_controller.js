@@ -71,7 +71,7 @@ module.exports.resetPassword = (req,res)=>{
         // console.log(user.password);
         user.password = req.body.password
         user.save();
-        return res.redirect('/users/profile');
+        return res.redirect('/');
     }).catch((err)=>{
          console.log("Error in finding the user for reset password");
          return
