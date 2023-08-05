@@ -1,0 +1,26 @@
+.footer{
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+}
+.footer p{
+    padding-left: 15px;
+}
+.footer ul{
+    display: flex;
+    padding-left: 60px;
+}
+.footer ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+.footer ul li a{
+    text-decoration: none;
+    /* color: white; */
+    /* font-size: 1.3rem; */
+    color: black;
+}

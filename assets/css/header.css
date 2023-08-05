@@ -1,0 +1,30 @@
+.headerDiv{
+    height: 12vh;
+    width: 100%;
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerDiv h1{
+    padding-left: 15px;
+}
+.headerDiv h1 a{
+    text-decoration: none;
+    color: white;
+}
+.headerDiv ul{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+.headerDiv ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.headerDiv ul li a{
+    text-decoration: none;
+    color: white;
+}
